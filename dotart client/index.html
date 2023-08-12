@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/adaptive.css">
+    <title>Dota profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header Start -->
+
+    <header>
+        <nav>
+            <a class="logo" href="#">
+                <h1 class="logo-name">D O T A R T</h1>
+                <img src="./img/logo.png" alt="logo-img">
+            </a>
+            <a href="#search" class="nav-link">Search</a>
+            <a id="best-nav-link" href="#best" class="nav-link">Best Matches</a>
+            <a href="#more" class="nav-link">More</a>
+        </nav>
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Search Start -->
+
+    <div id="search" class="search">
+        <div class="search-wrap">
+            <div class="search-input">
+                <div class="search-img-preview">
+                    <img src="./img/cat.gif" alt="your example of image">
+                </div>
+                <div class="search-param-wrap">
+                    <label for="image-url">Example Image URL</label>
+                    <input class="image-url" type="text">
+                    <label for="name">Example Profile Name</label>
+                    <input class="name" type="text">
+                </div>
+            </div>
+            <button class="search-btn" onclick="">Search Image</button>
+        </div>
+    </div>
+
+    <script src="./js/previewIimg.js"></script>
+
+    <!-- Search End -->
+
+    <!-- Best Start -->
+
+    <div id="best" class="best">
+        <h2 class="best-title">Best Matches</h2>
+        <div class="best-wrap">
+            <div class="best-images">
+                <div id="best-img-1" class="best-img-item">
+                    <div class="best-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="best-param-wrap">
+                        <h3 class="best-param-title">Score</h3>
+                        <h3 class="best-score">0%</h3>
+                    </div>
+                </div>
+                <div id="best-img-2" class="best-img-item">
+                    <div class="best-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="best-param-wrap">
+                        <h3 class="best-param-title">Score</h3>
+                        <h3 class="best-score">0%</h3>
+                    </div>
+                </div>
+                <div id="best-img-3" class="best-img-item">
+                    <div class="best-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="best-param-wrap">
+                        <h3 class="best-param-title">Score</h3>
+                        <h3 class="best-score">0%</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="best-names">
+                <div class="best-names-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Best End -->
+
+    <!-- More Start -->
+
+    <div id="more" class="more">
+        <h2 class="more-title">More Images and Names</h2>
+        <div class="container">
+
+        </div>
+    </div>
+
+    <!-- More End -->
+
+    <script src="./js/pagination.js"></script>
+    <script src="./js/search.js"></script>
+
+</body>
+
+</html>
